@@ -1,4 +1,4 @@
-#include "Maths.hpp"
+#include "Maths.cuh"
 
 #include <assert.h>
 #ifdef _WIN32
