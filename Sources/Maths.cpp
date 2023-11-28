@@ -1,4 +1,4 @@
-#include "Maths/Maths.hpp"
+#include "Maths.hpp"
 
 #include <cstdio>
 
