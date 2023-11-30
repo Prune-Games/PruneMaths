@@ -22,6 +22,15 @@
 #define PRUNE_API
 #endif
 
+#define PRUNE_PI 3.14159265358979323846
+#define PRUNE_PI_2 1.57079632679489661923
+
+#ifndef M_PI
+#define M_PI PRUNE_PI
+#define M_PI_2 PRUNE_PI_2
+#endif
+
+
 // TODO enable this if using Vulkan, or any other API that invert some axis during the rendering process
 // #define INVERTED_PROJECTION
 

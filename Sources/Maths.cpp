@@ -584,14 +584,14 @@ namespace Maths
             }
             else
             {
-                thetaX = (f32)M_PI_2;
+                thetaX = (f32)PRUNE_PI_2;
                 thetaY = -atan2f(-content[3] / scale.y, content[0] / scale.x);
                 thetaZ = 0;
             }
         }
         else
         {
-            thetaX = -(f32)M_PI_2;
+            thetaX = -(f32)PRUNE_PI_2;
             thetaY = atan2f(-content[3] / scale.y, content[0] / scale.x);
             thetaZ = 0;
         }
@@ -614,14 +614,14 @@ namespace Maths
             }
             else
             {
-                thetaX = (f32)M_PI_2;
+                thetaX = (f32)PRUNE_PI_2;
                 thetaY = -atan2f(-content[3], content[0]);
                 thetaZ = 0;
             }
         }
         else
         {
-            thetaX = -(f32)M_PI_2;
+            thetaX = -(f32)PRUNE_PI_2;
             thetaY = atan2f(-content[3], content[0]);
             thetaZ = 0;
         }
@@ -826,14 +826,14 @@ namespace Maths
             }
             else
             {
-                thetaX = (f32)M_PI_2;
+                thetaX = (f32)PRUNE_PI_2;
                 thetaY = -atan2f(-content[4] / scale.y, content[0] / scale.x);
                 thetaZ = 0;
             }
         }
         else
         {
-            thetaX = -(f32)M_PI_2;
+            thetaX = -(f32)PRUNE_PI_2;
             thetaY = atan2f(-content[4] / scale.y, content[0] / scale.x);
             thetaZ = 0;
         }
@@ -856,14 +856,14 @@ namespace Maths
             }
             else
             {
-                thetaX = (f32)M_PI_2;
+                thetaX = (f32)PRUNE_PI_2;
                 thetaY = -atan2f(-content[4], content[0]);
                 thetaZ = 0;
             }
         }
         else
         {
-            thetaX = -(f32)M_PI_2;
+            thetaX = -(f32)PRUNE_PI_2;
             thetaY = atan2f(-content[4], content[0]);
             thetaZ = 0;
         }

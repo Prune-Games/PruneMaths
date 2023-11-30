@@ -1178,12 +1178,12 @@ namespace Maths
 
     inline f32 Util::ToRadians(f32 in)
     {
-        return in / 180.0f * (f32)M_PI;
+        return in / 180.0f * (f32)PRUNE_PI;
     }
 
     inline f32 Util::ToDegrees(f32 in)
     {
-        return in * 180.0f / (f32)M_PI;
+        return in * 180.0f / (f32)PRUNE_PI;
     }
 
     inline f32 Util::Clamp(f32 in, f32 min, f32 max)
