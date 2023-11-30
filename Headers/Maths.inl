@@ -1,7 +1,7 @@
 #include "Maths.hpp"
 
 #include <assert.h>
-#ifdef _WIN32
+#ifdef _WIN32 && !defined(__MINGW32__)
 #include <corecrt_math_defines.h>
 #endif
 
